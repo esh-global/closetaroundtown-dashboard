@@ -75,6 +75,10 @@ header p.sub{margin:6px 0 0;color:var(--muted);max-width:56ch;}
 .btn-ghost:hover{border-color:var(--line);}
 .btn-sm{padding:6px 10px;font-size:12px;}
 
+.shop-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:-6px 0 16px;}
+.shop-links-label{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-right:2px;}
+.shop-links a.btn{text-decoration:none;}
+
 .view-toggle{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;margin-bottom:18px;}
 .view-tab{padding:9px 16px;border:none;background:var(--surface);color:var(--ink);cursor:pointer;font-weight:600;font-size:13px;border-right:1px solid var(--line);}
 .view-tab:last-child{border-right:none;}
